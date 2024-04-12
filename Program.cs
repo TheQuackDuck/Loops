@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            // Tuscan
             Random random = new Random();
             Console.WriteLine("Part 1 - Prompter");
             Console.WriteLine("Enter a minimum value:");
