@@ -41,6 +41,14 @@
             Console.WriteLine("Part 3 - Oddsum");
             Console.WriteLine("Ether a number (preferably an odd one):");
             int oddNum = Convert.ToInt32(Console.ReadLine());
+            // Odd programming starts here
+            int adder = 0;
+            for (int i = 1; i < oddNum; i = i + 2)
+            {
+                adder = adder + i;
+            }
+            Console.WriteLine(adder);
+            // Odd programming ends here
             Console.WriteLine();
             Console.WriteLine("Part 4 - Random Numbers");
             Console.WriteLine("Enter a minimum:");
